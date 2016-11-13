@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>angular 2 starter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/kube/6.0.1/css/kube.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/kute.js/1.5.96/kute.min.js"></script>
+
+    <!-- js -->
+    <!-- dependencies -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+
+    <!-- load angular app with systemjs -->
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import(app).catch(function (err) {
+        console.log(err);
+      });
+    </script>
+  </head>
+  <body>
+    
+    <div class="row centered">
+      <div class="col col-8">
+        <h3>app starts here</h3>
+        
+      </div>
+    </div>
+    
+  
+  </body>
+</html>
